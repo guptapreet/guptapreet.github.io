@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA_Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preet Gupta - Android Developer, Programmer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <a href="https://github.com/guptapreet"><img src="images/guptapreet.png" class="logo"></a>
+              </div>
+              <div class="flip-card-back">
+                <a href="https://github.com/guptapreet"><img src="images/guptapreet.png" class="logo"></a>
+              </div>
+            </div>
+          </div>
+        <nav>
+            <!----<a href="https://github.com/guptapreet"><img src="images/guptapreet.png" class="logo"></a>--->
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <!--------------home--------------------->
+        <div class="header-text">
+            <p>Android Developer</p>
+            <h1>Hey! I am</h1>
+            <h2><span>Preet Gupta</span></h2>
+            <h3>Android Coordinator @DevUp</h3>
+        </div>
+    </div>
+</div> 
+<!--------------about----------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <div class="me"></div>
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('certifications')">Certificates</p>
+                    <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>App Development</span><br>Building Android Apps<br>->Java and Kotlin</li>
+                        <li><span>Competitive Programming</span><br>->Python<br>->MySQL<br>->C<br>->Java<br>->Kotlin</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="certifications">
+                    <ul>
+                        <li><span>NASA Space Apps Hackathon</span><br>->3rd Postion<br>->Selected as Global Nominees</li>
+                        <li><span>Programming</span><br>->2* @Hackerrank in Python</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="projects">
+                    <ul>
+                        <li><span>Android Apps</span><br>->TEG<br>The Essence Of Gully</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------------skills--------------->
+<div id="skill">
+    <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+        <div class="skills-list">
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>App Development</h2>
+                <p>Development of Android Apps in Java and Kotlin.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Developing websites using HTML, CSS and JS</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Programming</h2>
+                <p>Competitive Programming in various Languages at various Platforms.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------------portfolio------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="project-list">
+            <div class="projects">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>The Essence of Gully</h3>
+                    <p>This app is designed to let the users order the popular 
+                        street foods near them online having good quality and 
+                        minimal rate.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="projects">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>InstaClone</h3>
+                    <p>This app is just a clone of Instagram app.</p>
+                        <a href="https://github.com/guptapreet/Insta_Clone"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="projects">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>My Calculator</h3>
+                    <p>This is just a simple Calculator.</p>
+                        <a href="https://github.com/guptapreet/MyCalci"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!--------------contact--------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>gpreet2905@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>8447702665</p>
+                <div class="social-icons">
+                    <a href="https://twitter.com/PreetGupta2905?t=CDRqaPYX7h-KMrhSFI5k7Q&s=09"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/invites/contact/?i=wpfylnr4kaau&utm_content=5nsv15u"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/preet-gupta-942861225"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/guptapreet"><i class="fab fa-github "></i></a>
+                </div>
+                <a href="" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn3">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------footer------------>
+<footer>
+    <span>Created By<a href="#"> Preet Gupta</a> | </span><span class="far fa-copyright"></span>2022 All rights reserved.
+</footer>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");   
+    }
+
+</script>
+
+<script>
+
+    var sidemnu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemnu.style.right = "0";
+    }
+    function closemenu(){
+        sidemnu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxogR9n4NAzad5XpUm_4Hc9Kw4L_1rtw0AZFjW5WL7lAcvPYj7_pqN9rsw6oACFsDZqqQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
